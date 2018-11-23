@@ -50,7 +50,7 @@
 
   <!-- welcome screen (leave blank to skip screen) -->
   <item id="welcomeHead">Welcome!</item>
-  <item id="welcomeText">This study is on value potentials and constraints of Slack Apps and Integrations. Thank you very much for your willingsness to participate!{br}{br}In Phase 1 of this research (2016-2018), we elaborated value potentials of Slack Apps and Integrations by drawing on qualitative research to inductively gain rich contextual insights from 8 organizational settings.{br}{br}{b}The next approx. 15 minutes belong to Phase 2 in which you will engage in an interactive card sorting of the value potentials of Slack Apps and Integrations from Phase 1.{/b} With your contribution you enable the rigorous and systematic investigation of differences in subjectively perceived value potentials and constraints by adopting a Q-methodology as a mixed-method approach. {br}{br}{i}Emanuel Stoeckli, Christian Dremel, Falk Uebernickel, Walter Brenner{br}Institute of Information Management at University of St. Gallen{br}Müller-Friedberg-Strasse 8{br}9000 St. Gallen, Switzerland{/i}</item>
+  <item id="welcomeText">This study is on value potentials and constraints of Slack Apps and Integrations. Thank you very much for your willingsness to participate!{br}{br}In Phase 1 of this research (2016-2018), we elaborated value potentials of Slack Apps and Integrations by drawing on qualitative research to inductively gain rich contextual insights from 8 organizational settings.{br}{br}{b}The next approx. 15 minutes belong to Phase 2 in which you will engage in an interactive card sorting of statements that describe value potentials of Slack Apps and Integrations from Phase 1.{/b} With your contribution you enable the rigorous and systematic investigation of differences in subjectively perceived value potentials and constraints by adopting a Q-methodology as a mixed-method approach. {br}{br}{i}Emanuel Stoeckli, Christian Dremel, Falk Uebernickel, Walter Brenner{br}Institute of Information Management at University of St. Gallen{br}Müller-Friedberg-Strasse 8{br}9000 St. Gallen, Switzerland{/i}</item>
 
   <!-- user login, only displayed if access is restricted (see config-file) -->
   <item id="loginHead">User code</item>
@@ -88,7 +88,7 @@
   <item id="transferHead">Submit Data</item>
   <item id="transferText">You've finished the survey. Thank you very much! Please submit your data now.</item>
   <item id="transferFailed">Data submission failed. Please try again or mail your results via email/post.</item>
-  <item id="transferOk">Thank you very much for your participation and, thus, for making this study possible.</item>
+  <item id="transferOk">Thank you very much for your participation and, thus, for making this study possible! {br}{br}{i}Emanuel Stoeckli, Christian Dremel, Falk Uebernickel, Walter Brenner{br}Institute of Information Management at University of St. Gallen{br}Müller-Friedberg-Strasse 8{br}9000 St. Gallen, Switzerland{/i}</item>
 
   <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
   <item id="mailHead">Submit Data</item>
