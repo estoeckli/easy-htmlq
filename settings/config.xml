@@ -33,6 +33,7 @@
       <item id="loginUrlMethod"></item>
 
       <!-- activate/deactivate optional steps (true|false) -->
+      <item id="showIntroduction">false</item>
       <item id="showStep3">false</item> <!-- Reorder -->
       <item id="showStep4">true</item> <!-- Commenting on both expremes -->
       <item id="showStep5">true</item> <!-- -->
@@ -58,11 +59,15 @@
          <note>Please enter your job role.</note>
          <input type="text" required="true"></input>
 
-         <label>What kind of transportation do you prefer?</label>
+         <label>What kind of company do you work for?</label>
          <input type="select" required="false">Small company;Medium‐sized company;Large corporation</input>
 
          <label>Which of the following types of Slack Channels do you use at work?*</label>
          <input type="rating2" required="true" scale="Yes;No;">Broadcasting channels (e.g., General, Blog, Buzz);Office location channels;Project team channels;Job role/ functional channels;Cross-team topic channels;Event-based channels;Inter-organizational channels;Integration-specific channels</input>
+
+         <label>Email</label>
+         <note>In case you are interested in the results of this study.</note>
+         <input type="text" required="false"></input>
 
          <label>Comments</label>
          <input type="textarea" required="false"></input>
