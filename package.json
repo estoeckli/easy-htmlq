@@ -1,0 +1,19 @@
+{
+  "name": "Q-survey-Slack-Apps",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Q-Survey on Value Potentials of Slack Apps and Integrations using easy-htmlQ",
+  "scripts": {
+    "postinstall": "",
+    "prestart": "npm install",
+    "start": "node server.js",
+    "pretest": "npm install",
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {}
+}

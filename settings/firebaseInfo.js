@@ -1,10 +1,10 @@
 // Initialize Firebase
 var config = {
-	apiKey: "AIzaSyDRo-tdOk_wniBWQ",
-    authDomain: "html-q-demo.firebaseapp.com",
-    databaseURL: "https://html-q-demo.firebaseio.com",
-    storageBucket: "html-q-demo.appspot.com",
-    messagingSenderId: "558977"
+  apiKey: "AIzaSyAIeIbFUN_bZZYaYbk5Oesp6lPUDrDTP-Q",
+  authDomain: "qsort-slack.firebaseapp.com",
+  databaseURL: "https://qsort-slack.firebaseio.com",
+  storageBucket: "qsort-slack.appspot.com",
+  messagingSenderId: "608555564270"
 };
 firebase.initializeApp(config);
 var rootRef = firebase.database().ref();

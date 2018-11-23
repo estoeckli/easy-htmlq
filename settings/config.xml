@@ -15,7 +15,7 @@
    <config version="1.0" htmlParse="false">
 
       <!-- title of the study -->
-      <item id="studyTitle">Name of your study</item>
+      <item id="studyTitle">Value Potentials of Slack Apps and Integrations</item>
 
       <!-- text-align property(left|right) -->
       <item id="textAlign">left</item>
@@ -33,9 +33,9 @@
       <item id="loginUrlMethod"></item>
 
       <!-- activate/deactivate optional steps (true|false) -->
-      <item id="showStep3">true</item>
-      <item id="showStep4">true</item>
-      <item id="showStep5">true</item>
+      <item id="showStep3">false</item> <!-- Reorder -->
+      <item id="showStep4">true</item> <!-- Commenting on both expremes -->
+      <item id="showStep5">true</item> <!-- -->
 
       <!-- HtmlQ only: disable the in-window back button -->
       <item id="disableBackButton">true</item>
@@ -46,22 +46,23 @@
       <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
       <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
       <item id="form">
+          <label>Gender*</label>
+          <note>Please select your gender.</note>
+          <input type="radio" required="true">female;male</input>
+
          <label>Age*</label>
          <note>Please enter your year of birth (YYYY, eg. 1980).</note>
          <input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
-         <label>Gender*</label>
-         <note>Please select your gender.</note>
-         <input type="radio" required="true">female;male</input>
-
-         <label>Please answer the following questions.</label>
-         <input type="rating2" required="false" scale="Yes;No;">There's a car in my household;I own a car for myself</input>
-
-         <label>What kind of transportation do you use?</label>
-         <input type="checkbox" required="false">Car;Railroad;Bike</input>
+         <label>Job Role*</label>
+         <note>Please enter your job role.</note>
+         <input type="text" required="true"></input>
 
          <label>What kind of transportation do you prefer?</label>
-         <input type="select" required="false">Car;Railroad;Bike</input>
+         <input type="select" required="false">Small company;Medium‐sized company;Large corporation</input>
+
+         <label>Which of the following types of Slack Channels do you use at work?*</label>
+         <input type="rating2" required="true" scale="Yes;No;">Broadcasting channels (e.g., General, Blog, Buzz);Office location channels;Project team channels;Job role/ functional channels;Cross-team topic channels;Event-based channels;Inter-organizational channels;Integration-specific channels</input>
 
          <label>Comments</label>
          <input type="textarea" required="false"></input>
@@ -76,5 +77,5 @@
       <item id="submitUrlMethod">firebase</item>
 
       <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
-      <item id="submitMail">yourdomain.com</item>
+      <item id="submitMail">emanuel.stoeckli@unisg.ch</item>
    </config>
