@@ -32,6 +32,30 @@ Once you're ready to start the survey:
 6. Point your participants to the URL under which you made it available
 7. If you want, you can add the [FlashQ PHP backend](http://www.hackert.biz/flashq/downloads/) to enable advanced functionality such as email export or CSV export
 
+# Deployment
+
+## Dokku
+
+```
+$ ssh dokku
+$ dokku apps:create slack-qsort
+$ dokku domains:add slack-qsort.stoeckli.solutions
+
+$ dokku help
+$ dokku urls www
+$ dokku ps:restart www
+$ dokku ps:rebuildall
+$ dokku apps:destroy www
+$ dokku trace on
+$ dokku enter www
+```
+
+## Setup local deployment environment
+
+```
+$ git remote add dokku dokku@paas.stoeckli.solutions:slack-qsort
+```
+
 ## Settings
 
 All .XML files in the settings subfolder are compatible with the settings files of FlashQ. A description of the settings files can be found at [http://www.hackert.biz/flashq/faq/]().
