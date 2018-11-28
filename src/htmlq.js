@@ -127,7 +127,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
         }
       })
       .state('root.welcome', {
-        url: '/{userCode}',
+        url: '/{id:int}',
         templateUrl: 'templates/empty.html',
         controller: 'WelcomeCtrl',
         resolve: {
@@ -138,6 +138,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
             return language.welcomeText;
           }],
           'userCodeParam': ['$stateParams', function($stateParams) {
+            console.log($stateParams.id);
             return $stateParams.userCode;
           }]
         },
