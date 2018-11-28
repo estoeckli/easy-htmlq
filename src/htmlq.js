@@ -127,7 +127,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
         }
       })
       .state('root.welcome', {
-        url: '/?userCode',
+        url: '/{userCode}',
         templateUrl: 'templates/empty.html',
         controller: 'WelcomeCtrl',
         resolve: {
