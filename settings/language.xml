@@ -50,7 +50,7 @@
 
   <!-- welcome screen (leave blank to skip screen) -->
   <item id="welcomeHead">Welcome!</item>
-  <item id="welcomeText">This study is on value potentials and constraints of Slack Apps and Integrations. Thank you very much for your willingsness to participate!{br}{br}In Phase 1 of this research (2016-2018), we elaborated value potentials of Slack Apps and Integrations by drawing on qualitative research to inductively gain rich contextual insights from 8 organizational settings.{br}{br}{b}The next approx. 15 minutes belong to Phase 2 in which you will engage in an interactive card sorting of statements that describe value potentials of Slack Apps and Integrations from Phase 1.{/b} With your contribution you enable the rigorous and systematic investigation of differences in subjectively perceived value potentials and constraints by adopting a Q-methodology as a mixed-method approach. {br}{br}{i}Emanuel Stoeckli, Christian Dremel, Falk Uebernickel, Walter Brenner{br}Institute of Information Management at University of St. Gallen{br}Müller-Friedberg-Strasse 8{br}9000 St. Gallen, Switzerland{/i}</item>
+  <item id="welcomeText">Thank you very much for your willingness to participate! This study is on value potentials and constraints of Slack Apps and Integrations.{br}{br}In Phase 1 of this research (2016-2018), we elaborated value potentials of Slack Apps and Integrations by drawing on qualitative research to inductively gain rich contextual insights from 8 organizational settings.{br}{br}{b}The next approx. 15 minutes belong to Phase 2 in which you will engage in an interactive card sorting of statements that describe value potentials of Slack Apps and Integrations from Phase 1.{/b} With your contribution you enable the rigorous and systematic investigation of differences in subjectively perceived value potentials and constraints by adopting a Q-methodology as a mixed-method approach. {br}{br}{i}Emanuel Stoeckli, Christian Dremel, Falk Uebernickel, Walter Brenner{br}Institute of Information Management at University of St. Gallen{br}Müller-Friedberg-Strasse 8{br}9000 St. Gallen, Switzerland{br}{br}If you have any questions, please contact emanuel.stoeckli@unisg.ch{/i}</item>
 
   <!-- user login, only displayed if access is restricted (see config-file) -->
   <item id="loginHead">User code</item>
@@ -66,7 +66,11 @@
 
   <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
   <item id="step1Head">Step 1 of 4</item>
-  <item id="step1Text">Read the folowing statements on Slack Apps and Integrations carefully and split them up into three piles: {br}{br}1. a pile for statements you tend to {b}agree that it describes a value potential for your work{/b} (given your job role, tasks and work setting),{br} 2. a pile for cards you tend to {b}disagree{/b} with,{br} 3. a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or press 1, 2, 3 on your keyboard.</item>
+  <item id="step1Text">Read the presented statements on Slack apps and integrations carefully and split them up into three piles: {br}{br}
+1. a pile for statements you tend to {b}disagree{/b} with (given your job role and work setting),{br}
+2. a {b}neutral{/b} pile for statements you neither agree nor disagree,{br}
+3. and a pile for statements you tend to {b}agree{/b} with.{br}{br}
+You can either drag the cards into one of the three piles or press 1, 2, 3 on your keyboard.</item>
 
   <!-- step2: sorting (leave blank to skip popup) -->
   <item id="step2Head">Step 2 of 4</item>
@@ -78,7 +82,7 @@
 
   <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
   <item id="step4Head">Step 3 of 4</item>
-  <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+2" or "-2".</item>
+  <item id="step4Text">Please explain shortly why you agree most or disagree most with the statements you have placed below "+2" or "-2". If possible, please provide an example of a particular Slack app and integration.</item>
 
   <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
   <item id="step5Head">Step 4 of 4</item>

@@ -1126,7 +1126,8 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
     $scope.agreeColumn = SortedStatements.grid[SortedStatements.grid.length - 1];
   }])
 
-  .controller('Step5Ctrl', ['message', 'messageHead', 'language', 'config', 'configXml', 'MessageModal', 'Survey', '$scope', '$rootScope', '$state', function(message, messageHead, language, config, configXml, MessageModal, Survey, $scope, $rootScope, $state) {
+  .controller('Step5Ctrl', ['message', 'messageHead', 'language', 'config', 'configXml', 'MessageModal', 'Survey', '$scope', '$rootScope', '$state', '$anchorScroll', function(message, messageHead, language, config, configXml, MessageModal, Survey, $scope, $rootScope, $state, $anchorScroll) {
+    $anchorScroll();
     $scope.help = function() {
       MessageModal.show(messageHead, message, config.textAlign, language.btnContinue);
     };

@@ -39,9 +39,9 @@
 -->
 
 <map version="1.0" htmlParse="false">
-  <column id="-2" colour="FFD5D5">2</column>
-  <column id="-1" colour="FFD5D5">3</column>
-  <column id=" 0" colour="E9E9E9">3</column>
-  <column id="+1" colour="9FDFBF">3</column>
-  <column id="+2" colour="9FDFBF">2</column>
+  <column id="-2" colour="989898">6</column>
+  <column id="-1" colour="E0E0E0">8</column>
+  <column id=" 0" colour="F5F5F5">10</column>
+  <column id="+1" colour="E0E0E0">8</column>
+  <column id="+2" colour="989898">6</column>
 </map>
