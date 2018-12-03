@@ -12,18 +12,30 @@ body {
 }
 
 .draggable {
+    display: table;
+    vertical-align: middle;
+
     border: 1px solid;
     width: 300px;
     height: 200px;
     padding: 12px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     box-shadow: 6px 6px 5px #888888;
     background-color: white;
     z-index: 999;
 
-
     /* http://maettig.com/code/css/text-overflow-ellipsis.html */
     overflow: hidden;           /* required for text-overflow */
+}
+
+.draggable.draggable-small {
+    padding: 0px;
+}
+
+.draggable.draggable-small span {
+    font-size: 0.8em;
+    display: block;
+    padding: 6px;
 }
 
 li.draggable {
@@ -88,7 +100,7 @@ p.card-counter {
 
 /* 3-column-view (disagree, agree, neutral) */
 .sorted-statements {
-    background-color: #d8d8d8;
+    background-color: #ffffcc; /*prev. gray: #d8d8d8;*/
     padding-top: 2px;
     padding-bottom: 5px;
     margin-left: 0px;
@@ -108,9 +120,9 @@ p.card-counter {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 20px;
+    height: 100px;
     display: none;
-    background-color: orange;
+    background-color: #fecc5c;
 }
 
 .sortable.active .overlay {
@@ -123,7 +135,8 @@ p.card-counter {
     overflow-x: hidden;
     overflow-y: scroll;
     padding: 0;
-    height: 200px;
+    min-height: 200px;
+    height: auto;
 }
 
 .sorted-statements ul {
@@ -135,34 +148,20 @@ p.card-counter {
 
 .sortable .draggable {
     height: auto;
-    padding-top: 2px;
-    padding-top: 2px;
     box-shadow: 3px 3px 2px #888888;
     width: auto;
 }
 
-.sortable.agree .draggable {
-    background-color: #9fdfbf;
+div.agree, li.agree, .sortable.agree .draggable {
+    background-color: #e9e9e9; /* prevents priming of green #9fdfbf;*/
 }
 
-.sortable.neutral .draggable {
+div.neutral, li.neutral, .sortable.neutral .draggable {
     background-color: #e9e9e9;
 }
 
-.sortable.disagree .draggable {
-    background-color: #ffd5d5;
-}
-
-div.agree, li.agree {
-    background-color: #9fdfbf;
-}
-
-div.neutral, li.neutral {
-    background-color: #e9e9e9;
-}
-
-div.disagree, li.disagree {
-    background-color: #ffd5d5;
+div.disagree, li.disagree, .sortable.disagree .draggable {
+    background-color: #e9e9e9; /* prevents priming of red #ffd5d5;*/
 }
 
 #login .user-code-form {
@@ -171,9 +170,7 @@ div.disagree, li.disagree {
 
 /* step1 */
 /* hide all except the first statement */
-#step1 {
-    padding-top: 50px;
-}
+#step1 {}
 
 #step1 #statements {
     min-height: 200px;

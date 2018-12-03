@@ -768,7 +768,11 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
 
             // we're empty, add dragged statement to cell
             scope.$apply(function() {
-              // set statement in cell
+              // set statement in cell in the following format:
+              // {  $$hashKey: "05J"
+              //    category: "agree"
+              //    __text: b {$$unwrapTrustedValue: ƒ}
+              //    _id: "02" }
               scope.cell.statement = dragElement.initialStatement;
 
               // set cell reference in dragged element
@@ -826,7 +830,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
                 //ui.helper.clone().appendTo('#step2');
                 var s = scope.$new(true);
                 s.statement = dragElement.initialStatement;
-                var el = $compile('<div draggable-statement="statement" clone-on-drag="false" class="destroy-on-place draggable dragging-onto-grid" ng-class="{neutral: statement.category === \'neutral\', agree: statement.category === \'agree\', disagree: statement.category === \'disagree\', textright: textAlignRight}" style="position: relative;" data-placement="bottom" data-toggle="tooltip" data-trigger="hover click" title="({{ statement._id }}) {{ statement.__text }}"><b>({{statement._id}})</b> {{statement.__text }}</div>')(s);
+                var el = $compile('<div draggable-statement="statement" clone-on-drag="false" class="destroy-on-place draggable dragging-onto-grid" ng-class="{neutral: statement.category === \'neutral\', agree: statement.category === \'agree\', disagree: statement.category === \'disagree\', textright: textAlignRight}" style="position: relative;" data-placement="bottom" data-toggle="tooltip" data-trigger="hover click" title="{{ statement.__text }}">{{statement.__text }}</div>')(s);
                 if (dragElement.smallFont && dragElement.smallFont === 'true') {
                   el.addClass('small-font');
                 }
