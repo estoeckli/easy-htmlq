@@ -38,12 +38,12 @@
 
 <statements version="1.0" htmlParse="false">
   <statement id="AFF01">I perceive Slack apps and integrations as valuable for receiving status notifications and updates from third-party systems within channels (e.g., Jira, Git, InVision, Twitter).</statement>
-  <statement id="AFF02">I perceive Slack apps and integrations as valuable for receiving real-time information from third-party systems within channels (e.g., critical error messages, trace user actions).</statement>
+  <statement id="AFF02">I perceive Slack apps and integrations as valuable for receiving real-time information from third-party systems within channels (e.g., critical errors, criticial user actions).</statement>
   <statement id="AFF03">I perceive Slack apps and integrations as valuable for receiving aggregated information from third-party systems within channels (e.g., lunch menus of nearby cafeterias,  generating meeting agenda).</statement>
   <statement id="AFF04">I perceive Slack apps and integrations as valuable for receiving metrics and key performance indicators from third-party systems within channels (e.g., velocities of scrum teams, stats about app reviews/ratings).</statement>
   <statement id="AFF05">I perceive Slack apps and integrations as valuable for setting and getting reminders within Slack channels (e.g., reminder to clean the office or run a daily standup).</statement>
-  <statement id="AFF06">I perceive Slack apps and integrations as valuable for setting and getting nudges/ action triggers within channels (e.g., trigger employees to track working hours or fix unresolved issues).</statement>
-  <statement id="AFF07">I perceive Slack apps and integrations as valuable for setting and getting nudges/ action triggers and resolve it within channels (e.g., provide buttons for employees to track working hours).</statement>
+  <statement id="AFF06">I perceive Slack apps and integrations as valuable for setting and getting nudges/ triggers to action within channels (e.g., trigger employees to track working hours or fix unresolved issues).</statement>
+  <statement id="AFF07">I perceive Slack apps and integrations as valuable for setting and getting nudges/ triggers to action and possibilities to resolve it within the channel (e.g., a message with buttons for employees to track working hours).</statement>
   <statement id="AFF08">I perceive Slack apps and integrations as valuable for capturing data in third-party systems from within channels (e.g., adding cards to Trello or Wunderlist).</statement>
   <statement id="AFF09">I perceive Slack apps and integrations as valuable for querying information from third-party systems within channels (e.g., querying current sales).</statement>
   <statement id="AFF10">I perceive Slack apps and integrations as valuable for invoking functions from third-party systems and make this invocation visible within channels (e.g., starting deployment, creating conference).</statement>
@@ -61,18 +61,8 @@
   <statement id="CON08">I perceive Slack apps and integrations as constraining to keep up the degree of freedom, because I do not want to squeeze myself into processes.</statement>
   <statement id="CON09">I perceive Slack apps and integrations as constraining in that is not visually recognizable what I have entered since the input disappears.</statement>
   <statement id="CON10">I perceive Slack apps and integrations as constraining, since I can achieve the same results with dedicated tools.</statement>
-  <statement id="CON11">I perceive Slack apps and integrations as constraining, since it is annoying to pass numerous parameters with commands.</statement>
-  <statement id="CON12">I perceive Slack apps and integrations as constraining, since they lack possibilities of configuration without programming customized integrations.</statement>
-  <statement id="CON13">I perceive Slack apps and integrations as constraining as it is more about playing and having fun than real value added.</statement>
-  <statement id="HLAFF01">All in all, Slack apps and integrations allow me to consolidate information flows.</statement>
-  <statement id="HLAFF02">All in all, Slack apps and integrations increase visibility and ambient awareness.</statement>
-  <statement id="HLAFF03">All in all, Slack apps and integrations facilitate feedback exchange through triggering reactions and discussions.</statement>
-  <statement id="HLAFF04">All in all, Slack apps and integrations foster team cohesion.</statement>
-  <statement id="HLAFF05">All in all, Slack apps and integrations allow me to ensure information flows by uncoupling it from employees.</statement>
-  <statement id="HLAFF06">All in all, Slack apps and integrations allow me to enforce discipline and compliance.</statement>
-  <statement id="HLAFF07">All in all, Slack apps and integrations allow me to control separate organizational units.</statement>
-  <statement id="HLAFF08">All in all, Slack apps and integrations allow me to unify access to third-party systems.</statement>
-  <statement id="HLAFF09">All in all, Slack apps and integrations relieve me from application switching.</statement>
-  <statement id="HLAFF10">All in all, Slack apps and integrations relieve me from repetitive work.</statement>
-  <statement id="HLAFF11">All in all, Slack apps and integrations speed up prototype building with conversational input and/or output.</statement>
+  <statement id="CON11">I perceive Slack apps and integrations as constraining due to a lack of rich user interface elements for entering data (e.g., it is annoying to pass numerous parameters with commands).</statement>
+  <statement id="CON12">I perceive Slack apps and integrations as constraining due to a lack of configuration possibilities without programming customized integrations.</statement>
+  <statement id="CON13">I perceive the value of Slack apps and integrations as limited, since it is difficult to know how to use them.</statement>
+  <statement id="CON14">I perceive Slack apps and integrations as constraining as it is more about playing and having fun than real value added.</statement>
 </statements>
