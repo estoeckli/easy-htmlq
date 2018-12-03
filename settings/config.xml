@@ -77,7 +77,7 @@
          <note>In case you are interested in the results of this study.</note>
          <input type="text" required="false"></input>
 
-         <label>(optional) Comments</label>
+         <label>(optional) Comments, e.g., value potentials and constraints that are missing so far</label>
          <input type="textarea" required="false"></input>
       </item>
 
