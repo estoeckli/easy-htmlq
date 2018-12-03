@@ -70,14 +70,14 @@
          <label>(*) Slack Usage Context</label>
          <input type="rating2" required="true" scale="Yes;No;">Slack is my main collaboration tool at work (i.e., replaces internal email); Most of my work is digital regarding input/output; I work in a dispersed, distributed, or extended team; I am somewhat familiar with programming Slack apps and integrations</input>
 
-         <label>How important are Slack apps and integrations for you in the following types of channels? (1=not at all, 5=very important)</label>
-         <input type="rating5" required="false" scale="0;1;2;3;4">Broadcasting channels (e.g., General, Blog, Buzz);Office location channels;Project team channels;Functional/ job role channels;Cross-team topic channels;Event-based channels;Inter-organizational channels;Integration-specific channels</input>
+         <label>(*) How important are Slack apps and integrations for you in the following types of channels? (1=not at all, 5=very important)</label>
+         <input type="rating5" required="true" scale="1;2;3;4;5">Broadcasting channels (e.g., General, Blog, Buzz);Office location channels;Project team channels;Cross-team channels (e.g., HR, Marketing);Event-based channels (e.g., Christmas Party);Inter-organizational channels</input>
 
-         <label>Email</label>
+         <label>(optional) Email</label>
          <note>In case you are interested in the results of this study.</note>
          <input type="text" required="false"></input>
 
-         <label>Comments</label>
+         <label>(optional) Comments</label>
          <input type="textarea" required="false"></input>
       </item>
 
