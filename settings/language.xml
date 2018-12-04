@@ -50,7 +50,7 @@
 
   <!-- welcome screen (leave blank to skip screen) -->
   <item id="welcomeHead">Welcome!</item>
-  <item id="welcomeText">Thank you very much for your willingness to participate! This study is on value potentials and constraints of Slack Apps and Integrations.{br}{br}In Phase 1 of this research (2016-2018), we elaborated value potentials of Slack Apps and Integrations by drawing on qualitative research to inductively gain rich contextual insights from 8 organizational settings.{br}{br}{b}The next approx. 30 minutes belong to Phase 2 in which you will engage in an interactive card sorting of statements that describe value potentials of Slack Apps and Integrations from Phase 1.{/b} With your contribution you enable the rigorous and systematic investigation of differences in subjectively perceived value potentials and constraints by adopting a Q-methodology as a mixed-method approach. {br}{br}{i}Emanuel Stoeckli, Christian Dremel, Falk Uebernickel, Walter Brenner{br}Institute of Information Management at University of St. Gallen{br}Müller-Friedberg-Strasse 8{br}9000 St. Gallen, Switzerland{br}{br}If you have any questions, please contact emanuel.stoeckli@unisg.ch{/i}</item>
+  <item id="welcomeText">Thank you very much for your willingness to participate! This study is on value potentials and constraints of Slack Apps and Integrations (and integrations in similar messenger tools such as HipChat).{br}{br}In Phase 1 of this research (2016-2018), we elaborated value potentials of Slack Apps and Integrations by drawing on qualitative research to inductively gain rich contextual insights from 8 organizational settings.{br}{br}{b}The next approx. 30 minutes belong to Phase 2 in which you will engage in an interactive card sorting of statements that describe value potentials of Slack Apps and Integrations from Phase 1.{/b}{br} With your contribution you enable the rigorous and systematic investigation of differences in subjectively perceived value potentials and constraints by adopting a Q-methodology as a mixed-method approach. {br}{br}{i}Emanuel Stoeckli, Christian Dremel, Falk Uebernickel, Walter Brenner{br}Institute of Information Management at University of St. Gallen{br}Müller-Friedberg-Strasse 8{br}9000 St. Gallen, Switzerland{br}{br}If you have any questions, please contact emanuel.stoeckli@unisg.ch{/i}</item>
 
   <!-- user login, only displayed if access is restricted (see config-file) -->
   <item id="loginHead">User code</item>
@@ -66,7 +66,7 @@
 
   <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
   <item id="step1Head">Step 1 of 4</item>
-  <item id="step1Text">Read the presented statements on Slack apps and integrations carefully and split them up into three piles: {br}{br}
+  <item id="step1Text">Read the presented statements carefully and split them up into three piles: {br}{br}
 1. a pile for statements you tend to {b}disagree{/b} with (given your job role and work setting),{br}
 2. a {b}neutral{/b} pile for statements you neither agree nor disagree,{br}
 3. and a pile for statements you tend to {b}agree{/b} with.{br}{br}
