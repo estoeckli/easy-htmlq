@@ -458,6 +458,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
     var modal = MessageModal.show(messageHead, message, config.textAlign, language.btnContinue);
 
     if (userCodeParam && userCodeParam.length > 0) {
+      console.log(userCodeParam);
       UserCode.userCode = userCodeParam;
     }
 
@@ -1226,7 +1227,8 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
         }).length
       };
 
-      if (UserCode.userCode && UserCode.userCode.length > 0) {
+      if (UserCode.userCode) {
+        console.log(UserCode.userCode);
         ret.uid = UserCode.userCode;
       }
       for (var i = 0; i < SortedStatements.grid[0].length; i++) {
