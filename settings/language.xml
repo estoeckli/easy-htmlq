@@ -50,7 +50,7 @@
 
   <!-- welcome screen (leave blank to skip screen) -->
   <item id="welcomeHead">Welcome!</item>
-  <item id="welcomeText">Thank you very much for your willingness to participate! This study is on value potentials and constraints of Slack Apps and Integrations (and integrations in similar messenger tools such as HipChat).{br}{br}In Phase 1 of this research (2016-2018), we elaborated value potentials of Slack Apps and Integrations by drawing on qualitative research to inductively gain rich contextual insights from 8 organizational settings.{br}{br}{b}The next approx. 30 minutes belong to Phase 2 in which you will engage in an interactive card sorting of statements that describe value potentials of Slack Apps and Integrations from Phase 1.{/b}{br} With your contribution you enable the rigorous and systematic investigation of differences in subjectively perceived value potentials and constraints by adopting a Q-methodology as a mixed-method approach. {br}{br}{i}Emanuel Stoeckli, Christian Dremel, Falk Uebernickel, Walter Brenner{br}Institute of Information Management at University of St. Gallen{br}Müller-Friedberg-Strasse 8{br}9000 St. Gallen, Switzerland{br}{br}If you have any questions, please contact emanuel.stoeckli@unisg.ch{/i}</item>
+  <item id="welcomeText">Thank you very much for your willingness to participate! This study is on value potentials and constraints of Slack Apps and Integrations as well as integrations into the conversational threads of similar messengers such as HipChat and Microsoft Teams.{br}{br}In Phase 1 of this research (2016-2018), we elaborated value potentials of Slack Apps and Integrations by drawing on qualitative research to inductively gain rich contextual insights from 8 organizational settings.{br}{br}{b}The next approx. 30 minutes belong to Phase 2 in which you will engage in an interactive card sorting of statements that describe value potentials of integrations from Phase 1.{/b}{br} With your contribution you enable the rigorous and systematic investigation of differences in subjectively perceived value potentials and constraints by adopting a Q-methodology as a mixed-method approach. {br}{br}{i}Emanuel Stoeckli, Christian Dremel, Falk Uebernickel, Walter Brenner{br}Institute of Information Management at University of St. Gallen{br}Müller-Friedberg-Strasse 8{br}9000 St. Gallen, Switzerland{br}{br}If you have any questions, please contact emanuel.stoeckli@unisg.ch{/i}</item>
 
   <!-- user login, only displayed if access is restricted (see config-file) -->
   <item id="loginHead">User code</item>
@@ -82,7 +82,7 @@ You can either drag the cards into one of the three piles or press 1, 2, 3 on yo
 
   <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
   <item id="step4Head">Step 3 of 4</item>
-  <item id="step4Text">Please explain shortly why you agree most or disagree most with the statements you have placed below "+2" or "-2". If possible, please provide an example of a particular Slack app and integration.</item>
+  <item id="step4Text">Please explain shortly why you agree most or disagree most with the statements you have placed below "+2" or "-2". If possible, please provide an example of a particular integration.</item>
 
   <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
   <item id="step5Head">Step 4 of 4</item>
