@@ -93,6 +93,30 @@ p.card-counter {
     font-size: 1.2em;
 }
 
+div.togglehover span.showonhover {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+    top: 125%;
+    left: 50%;
+    margin-left: -125px;
+}
+
+div.togglehover:hover span.showonhover {
+    visibility: visible;
+}
+div.togglehover:hover span.hideonhover {
+    visibility: hidden;
+}
+
 /* bootstrap tooltip */
 .tooltip {
     font-size: 5em;
