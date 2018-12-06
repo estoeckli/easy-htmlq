@@ -68,7 +68,7 @@
          <input type="text" required="true"></input>
 
          <label>(*) Messenger Platform</label>
-         <input type="select" required="true">Slack;HipChat;Microsoft Teams;Stride;Other</input>
+         <input type="select" required="true">Slack;HipChat;Microsoft Teams;Stride;Telegram;Other</input>
 
          <label>(*) Messenger Usage Context</label>
          <input type="rating2" required="true" scale="Yes;No;">The messenger is my main collaboration tool at work (i.e., replaces internal email); Most of my work is digital regarding input/output; I work in a dispersed, distributed, or extended team; I am somewhat familiar with programming integrations</input>
