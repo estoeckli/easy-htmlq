@@ -50,31 +50,31 @@
           <note bg="false">All fields marked with an * are mandatory.</note>
 
           <label>(*) Gender</label>
-          <input type="radio" required="true">female;male</input>
+          <input type="radio" required="false">female;male</input>
 
          <label>(*) Year of birth (YYYY, eg. 1980)</label>
-         <input type="text" required="true" maxlength="4" restricted="0-9"></input>
+         <input type="text" required="false" maxlength="4" restricted="0-9"></input>
 
          <label>(*) Company size</label>
-         <input type="select" required="true">Micro enterprise (fewer than 10 employees); Small enterprise (10 to 49 employees);Medium‐sized enterprise (50 to 249 employees);Large enterprise (250 or more employees)</input>
+         <input type="select" required="false">Micro enterprise (fewer than 10 employees); Small enterprise (10 to 49 employees);Medium‐sized enterprise (50 to 249 employees);Large enterprise (250 or more employees)</input>
 
          <label>(*) Country of residence</label>
-         <input type="text" required="true"></input>
+         <input type="text" required="false"></input>
 
          <label>(*) Industry</label>
-         <input type="text" required="true"></input>
+         <input type="text" required="false"></input>
 
          <label>(*) Job Role</label>
-         <input type="text" required="true"></input>
+         <input type="text" required="false"></input>
 
          <label>(*) Messenger Platform</label>
-         <input type="select" required="true">Slack;HipChat;Microsoft Teams;Stride;Telegram;Other</input>
+         <input type="select" required="false">Slack;HipChat;Microsoft Teams;Stride;Telegram;Other</input>
 
          <label>(*) Messenger Usage Context</label>
-         <input type="rating2" required="true" scale="Yes;No;">The messenger is my main collaboration tool at work (i.e., replaces internal email); Most of my work is digital regarding input/output; I work in a dispersed, distributed, or extended team; I am somewhat familiar with programming integrations</input>
+         <input type="rating2" required="false" scale="Yes;No;">The messenger is my main collaboration tool at work (i.e., replaces internal email); Most of my work is digital regarding input/output; I work in a dispersed, distributed, or extended team; I am somewhat familiar with programming integrations</input>
 
          <label>(*) How important are integrations in the following types of channels? (1=not at all, 5=very important)</label>
-         <input type="rating5" required="true" scale="1;2;3;4;5">Broadcasting channels (e.g., General, Blog, Buzz);Office location channels;Project team channels;Cross-team channels (e.g., HR, Marketing);Event-based channels (e.g., Christmas Party);Inter-organizational channels</input>
+         <input type="rating5" required="false" scale="1;2;3;4;5">Broadcasting channels (e.g., General, Blog, Buzz);Office location channels;Project team channels;Cross-team channels (e.g., HR, Marketing);Event-based channels (e.g., Christmas Party);Inter-organizational channels</input>
 
          <label>(optional) Are you interested in</label>
          <input type="rating2" required="false" scale="Yes;No;">receiving the results of this study; entering the prize draw</input>
